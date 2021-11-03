@@ -1,1 +1,1 @@
-First Readme for first setup- xuantung412
+This is brand-x note
