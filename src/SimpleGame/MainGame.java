@@ -17,10 +17,11 @@ public class MainGame {
 			return "Draw";
 		}
 		else if(systemRandomNum == 0 && userInput == 1){
-			return "Congraduation, You Win";
+			return "No Luck, You Lose";	//Wrong code here
+
 		}
 		else if(systemRandomNum == 0 && userInput == 2){
-			return "No Luck, You Lose";
+			return "Congraduation, You Win";	//Wrong code here
 		}
 		else if(systemRandomNum == 1 && userInput == 0){
 			return "No Luck, You Lose";
