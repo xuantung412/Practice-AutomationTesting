@@ -10,7 +10,7 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-api</artifactId>
-			<version>4.31</version>
+			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
 
