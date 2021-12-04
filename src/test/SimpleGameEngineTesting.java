@@ -1,8 +1,10 @@
-package SimpleGame;
+package test;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+
+import main.MainGame;
 
 public class SimpleGameEngineTesting {
 	MainGame test01 = new MainGame();
@@ -37,3 +39,4 @@ public class SimpleGameEngineTesting {
 		assertEquals("No Luck, You Lose",test01.play(1));//User chose Paper
 
 	}
+}

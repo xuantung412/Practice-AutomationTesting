@@ -1,4 +1,4 @@
-package SimpleGame;
+package main;
 
 import java.util.Random;
 import java.util.Scanner;
