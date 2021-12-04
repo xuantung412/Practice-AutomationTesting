@@ -1,10 +1,10 @@
-package test;
+package test.java;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
 
-import main.MainGame;
+import main.java.MainGame;
 
 public class SimpleGameEngineTesting {
 	MainGame test01 = new MainGame();
