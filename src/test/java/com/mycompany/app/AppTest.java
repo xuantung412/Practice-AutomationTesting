@@ -25,13 +25,13 @@ public class AppTest {
 	@Test
 	public void testCase03() {
 		test01.systemRandomNum =0; //Set system chose Rock
-		assertEquals("Congraduation, You Win",test01.play(1));//User chose Paper
+		assertEquals("Congraduation, You Win",test01.play(2));//User chose Paper
 
 	}
 	@Test
 	public void testCase04() {
 		test01.systemRandomNum =0; //Set system chose Rock
-		assertEquals("No Luck, You Lose",test01.play(2));//User chose Sic
+		assertEquals("No Luck, You Lose",test01.play(1));//User chose Sic
 
 	}
 	@Test
